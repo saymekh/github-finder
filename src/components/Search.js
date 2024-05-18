@@ -13,7 +13,6 @@ function Search() {
 
   useEffect(() => {
     window.onbeforeunload = () => window.scrollTo(0, 0);
-
   }, []);
 
   const handleSubmit = async (e) => {
